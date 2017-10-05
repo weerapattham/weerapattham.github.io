@@ -11,11 +11,29 @@
     
     
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    
+    <link rel="stylesheet" href=css/weerapat.css> 
 </head>
 <body>
 
-<div class="container" style="text-align: center">
+<div class="container">
 
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    
+    <span onclick="openNav()"><h3>open</h3></span>
+    
+    
+    <div id="main">
+    
+    
+    
 	<section class="head">
 	   <h1><strong>Weerapat Thammawattana</strong></h1>
 	</section>
@@ -23,7 +41,20 @@
     	
   
 
-  	<section id="contact">
+  	
+    
+    <section>
+        <h3>My Skills</h3>
+    </section>
+    
+    
+    <section>
+        
+    
+    </section>
+    
+    
+    <section id="contact">
 	    <h3>Get in touch</h3>
 	    <h4>weerapat.tham@gmail.com</h4>
     
@@ -31,13 +62,35 @@
     </section>
 
     
-    <section>
     
-    
-    
-    </section>
 
+    
+    <footer>
+        <nav>
+        dfgdgfs
+        </nav>
+        
+        
+    </footer>
+        
+    </div>
+    
 </div>
+    
+    
+    <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+    
+    
 
 </body>
 </html>
